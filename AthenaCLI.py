@@ -56,3 +56,5 @@ def scan_xss(url):
 if __name__ == "__main__":
     url = str(input("Target URL: "))
     print(scan_xss(url))
+    print("False = Not vulnerable to XSS")
+    print("True = Vulnerable to XSS")
